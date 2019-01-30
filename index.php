@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Zippyshare Downloader">
-    <meta name="author" content="https://github.com/ilham513">
+    <meta name="author" content="https://github.com/GunawanJSP">
 
-    <title>ZippyShare Embed PDF Grab</title>
+    <title>ZippyShare Downloader</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -44,6 +44,22 @@
       </form>
     </main>
 	
+    <main role="main" class="container">
+      <h1 class="mt-5">Zippy PDF Src</h1>
+      <p class="lead">Place The link on the box.</p>
+      <form class="form" method="post" action="simple-zip-src.php">
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="input-group input-group-lg">
+            <textarea class="form-control input-lg" placeholder="Taruh Link di SIni!!!" name="urldom2"></textarea>
+            <span class="input-group-btn">
+                <button class="btn btn-primary btn-lg" type="submit">DOM</button>
+            </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </form>
+    </main>
 	
 
     <footer class="footer">
