@@ -1,4 +1,4 @@
-<title>Link Search</title>
+<title>Link Search2</title>
 
 <?php
 $urlz = $_POST['urldom2'];
@@ -7,6 +7,9 @@ include 'simple_html_dom.php';
 
 $html = file_get_html($url);
 
+echo $html;
+
+/*
 foreach($html->find("a") as $f){ 
 	 $f = $f->href;	//ngimbil isi atribut
 	 $ahh = $f;
@@ -14,6 +17,7 @@ foreach($html->find("a") as $f){
 	 echo $ahh;
 	 echo "<br/>\n";
 }
+*/
 
 ?>
 
